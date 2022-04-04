@@ -4,37 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Web Studio</title>
 </head>
 <body>
     <!-- header -->
     <header>
         <nav>
-            <a href="/">
-                <span lang="en">Web</span>
-                <span lang="en">Studio</span>
+            <a class="logo" lang="en" href="/">Web<span>Studio</span>
             </a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="list-nav">
+                <li><a class="link active" href="index.html">Студия</a></li>
+                <li><a class="link" href="portfolio.html">Портфолио</a></li>
+                <li><a class="link" href="">Контакты</a></li>
             </ul>
             </nav>
-            <section>
-                <h2>Каналы связи</h2>
+            <div class="connection">
                 <a href="mailto:info@devstudio.com">info@devstudio.com</a>
                 <a href="tel:+380961111111">+38 096 111 11 11</a>
-            </section>
+            </div>
     </header>
     <!-- main -->
     <main>
         <!-- hero -->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <section class="hero">
+            <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+            <button class="button" type="button">Заказать услугу</button>
         </section>
         <!-- benefits -->
-        <section>
+        <section class="benefits">
             <h2>Преимущества</h2>
             <ul>
                 <li>
@@ -56,8 +57,8 @@
             </ul>
         </section>
         <!-- what are we doing -->
-        <section>
-            <h2>Чем мы занимаемся</h2>
+        <section class="specifics">
+            <h2 class="second-title">Чем мы занимаемся</h2>
             <ul>
                 <li>
                     <a href=""><img src="images/box1.jpg" alt="Десктопные приложения" width="370"></a>
@@ -74,8 +75,8 @@
             </ul>
         </section>
         <!-- our tem -->
-        <section>
-            <h2>Наша команда</h2>
+        <section class="team">
+            <h2 class="second-title">Наша команда</h2>
             <ul>
                 <li>
                     <img src="images/team1.jpg" alt="Игорь Демьяненко" width="270">
@@ -101,14 +102,16 @@
         </section>
     </main>
     <!-- footer -->
-    <footer>
-        <a href="/">
-            <span lang="en">Web</span>
-            <span lang="en">Studio</span>
-        </a>
-        <address>г. Киев, пр-т Леси Украинки, 26</address>
-        <a href="mailto:info@example.com">info@example.com</a>
-        <a href="tel:+380991111111">+38 099 111 11 11</a>
+    <footer class="footer">
+        <a class="logo" lang="en" href="/">
+                Web<span>Studio</span>
+            </a>
+        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+        <div class="connection">
+            <a href="mailto:info@example.com">info@example.com</a>
+            <a href="tel:+380991111111">+38 099 111 11 11</a>
+        </div>
+       
     </footer>
 </body>
 </html>
