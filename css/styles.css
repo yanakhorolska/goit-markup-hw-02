@@ -7,17 +7,17 @@
 }
 body {
     font-family: Roboto, sans-serif;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
-    
+    color: var(--dark-font-color);
 }
 .second-title {
-    font-weight: 700;
+
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--dark-font-color);
 }
 /*//////////////////// header ///////////////////////*/
 .logo {
@@ -104,15 +104,13 @@ body {
     list-style: none;
 }
 .benefits h3 {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--dark-font-color);
+    
 }
 .benefits p {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -123,7 +121,6 @@ body {
     list-style: none;
 }
 .specifics h3 {
-    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
@@ -145,10 +142,8 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--dark-font-color);
 }
 .team p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -181,23 +176,20 @@ body {
     list-style: none;
 }
 .works h3 {
-    font-weight: 700;
+    color: var(--dark-font-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--dark-font-color);
 }
 .works a {
     text-decoration: none;
 }
 .works p {
-    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.03em;
     color: var(--light-font-color);
 }
 .works .hidden {
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.03em;
