@@ -78,6 +78,7 @@ body {
     color: #FFFFFF;
 }
 .hero .hero-button {
+    font-family: 'Roboto', sans-serif;
     color: #fff;
     background-color: var(--brand-color);
     font-weight: 700;
@@ -209,4 +210,12 @@ body {
 }
 .footer span {
     color: #ffffff;
+}
+.footer .footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
